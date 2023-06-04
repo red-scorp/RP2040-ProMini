@@ -56,11 +56,27 @@
         },
         {
           "gap": 0.2,
-          "via_gap": 0.3,
+          "via_gap": 0.2,
           "width": 0.2
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|148060001|97049999|08af5f96-58fd-49db-a254-4471c2fe7a5f|1ea177ef-ca23-4173-b746-b36b76abf3c8",
+        "courtyards_overlap|156570001|111584999|a72fb053-7ab2-48ad-b8c2-384fc6c6483e|988c5316-9ff9-4f35-83bc-ff7f231b2478",
+        "courtyards_overlap|162030001|104880001|022c58d8-117b-4603-80d1-fe186a236a6e|7122cf6e-5b4d-40fa-96ef-1bcffe940c60",
+        "courtyards_overlap|164359999|95990001|022c58d8-117b-4603-80d1-fe186a236a6e|08af5f96-58fd-49db-a254-4471c2fe7a5f",
+        "lib_footprint_mismatch|148590000|111760000|1ea177ef-ca23-4173-b746-b36b76abf3c8|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|154940000|107315000|5c4491bc-aac5-4b17-a0d0-297f6032ee7e|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|156210000|95249999|08af5f96-58fd-49db-a254-4471c2fe7a5f|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|161290000|107950000|7122cf6e-5b4d-40fa-96ef-1bcffe940c60|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|163830000|111760000|022c58d8-117b-4603-80d1-fe186a236a6e|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|154905205|96275865|a246b543-1779-4ca0-8a7b-cbd027f7e636|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|154974794|96275866|ffe87100-cd93-474f-a106-df168db33c11|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|162769340|97790000|ea14f3cb-593f-4eb9-bdb2-92c3c1dc6419|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|162774832|105404508|79840fb1-3d37-409f-bfbb-cbc3b871bd6a|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|162791306|105410000|bbcb390b-d2e1-43f5-a432-fb1eab2eff95|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|162804135|97755205|91c06308-4ab0-4f84-8085-2c1e8e4d3610|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -125,12 +141,12 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7999999999999999,
+        "min_text_height": 0.5,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -179,9 +195,7 @@
       "track_widths": [
         0.0,
         0.2,
-        0.3,
-        0.5,
-        1.0
+        0.5
       ],
       "via_dimensions": [
         {
@@ -189,12 +203,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
-          "drill": 0.3
+          "diameter": 0.4,
+          "drill": 0.2
         },
         {
-          "diameter": 0.8,
-          "drill": 0.5
+          "diameter": 0.7,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -434,13 +448,13 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
+        "microvia_diameter": 0.2,
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
+        "track_width": 0.2,
+        "via_diameter": 0.7,
         "via_drill": 0.4,
         "wire_width": 6
       },
@@ -451,13 +465,13 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
+        "microvia_diameter": 0.2,
         "microvia_drill": 0.1,
         "name": "USB_D",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.8,
+        "via_diameter": 0.7,
         "via_drill": 0.4,
         "wire_width": 6
       }
@@ -509,6 +523,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
