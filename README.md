@@ -34,11 +34,11 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ### v1.0b1
 
-Initial release for testing
+Initial release for testing purposes
 
 ## Links
 
-- [Paspberry Pi RP2040 information page](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html).
+- [Raspberry Pi RP2040 information page](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html).
 - [Arduino Pro Mini information page](https://docs.arduino.cc/retired/boards/arduino-pro-mini).
 - [Arduino Nano RP2040 Connect page](https://docs.arduino.cc/hardware/nano-rp2040-connect).
 
