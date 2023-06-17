@@ -25,15 +25,16 @@ Features:
 - SWD debugging pins on the side connector
 - LDO-based 3.3V power supply with a maximum 16V input
 - Supports both SOIC and WSON flash packages
-- Flat back side enables use as a subassembly
+- Flat back side enables use as a sub-assembly
+- Two cut points to reduce power consumption of unused components
 
 CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ## Version History
 
-### v1.0
+### v1.0b1
 
-Initial release
+Initial release for testing
 
 ## Links
 
