@@ -32,6 +32,13 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ## Version History
 
+### v1.0
+
+- Moved few resistors around.
+- Added small GND fill under the MCU.
+- Switched positions of UD- and GND pins on the side connector.
+- Generated different set of BOM and CPL files for SOIC and WSON versions of the board.
+
 ### v1.0b1
 
 Initial release for testing purposes
