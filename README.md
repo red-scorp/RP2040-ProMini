@@ -38,6 +38,7 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 - Added small GND fill under the MCU.
 - Switched positions of UD- and GND pins on the side connector.
 - Generated different set of BOM and CPL files for SOIC and WSON versions of the board.
+- Added BOOTSEL mini button for programming convenience.
 
 ### v1.0b1
 
