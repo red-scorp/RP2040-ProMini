@@ -32,13 +32,18 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ## Version History
 
-### v1.0
+### v1.1
 
 - Moved few components around.
+- Added BOOTSEL mini button for programming convenience.
+- Changed LED resistors to allow more current, making LED to emit more light.
+
+### v1.0
+
+- Moved few resistors around.
 - Added small GND fill under the MCU.
 - Switched positions of UD- and GND pins on the side connector.
 - Generated different set of BOM and CPL files for SOIC and WSON versions of the board.
-- Added BOOTSEL mini button for programming convenience.
 
 ### v1.0b1
 
