@@ -960,6 +960,11 @@
         )
       )
     )
+    (model "${KIPRJMOD}/EVP-BB4A9B000--3DModel-STEP-56544.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
