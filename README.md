@@ -20,10 +20,12 @@ Features:
 - Partially compatible with Arduino Nano RP2040 Connect pinout
 - Dual-core Cortex-M0+ Raspberry Pi RP2040
 - Small footprint suitable for DIY projects
-- 19 GPIO pins, including 4 analog inputs
+- (v1.0-v1.1) 19 GPIO pins, including 4 analog inputs
+- (v2.0) 21 GPIO pins, including 4 analog inputs
 - USB data pins on the side connector
 - SWD debugging pins on the side connector
-- LDO-based 3.3V power supply with a maximum 16V input
+- (v1.0-v1.1) LDO-based 3.3V power supply with a maximum 16V input 
+- (v2.0) Bock-Boost converter based 3.3V power supply with input range of 2.5V-12V
 - Supports both SOIC and WSON flash packages
 - Flat back side enables use as a sub-assembly
 - Two cut points to reduce power consumption of unused components
@@ -31,6 +33,11 @@ Features:
 CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ## Version History
+
+### v2.0 (future)
+
+- Use Buck-Boost converter instead of LDO.
+- Added D20 and D21 digital pins.
 
 ### v1.1
 
