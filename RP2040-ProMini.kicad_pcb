@@ -964,7 +964,7 @@
         )
       )
     )
-    (model "${KIPRJMOD}/EVP-BB4A9B000--3DModel-STEP-56544.STEP"
+    (model "${KIPRJMOD}/lib/EVP-BB4A9B000--3DModel-STEP-56544.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1962,7 +1962,7 @@
       (net 18 "GND") (pinfunction "PGND") (pintype "power_in") (tstamp c3f80c7a-f404-4a7b-88b3-c459dfa7466b))
     (pad "11" smd rect (at 0.6 1.425 270) (size 0.25 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 18 "GND") (pinfunction "PGND") (pintype "power_in") (solder_paste_margin -0.05) (tstamp bbfae6e7-a0f5-4033-b2f5-eb7b461bbb67))
-    (model "${KIPRJMOD}/TPS63060DSCT.step"
+    (model "${KIPRJMOD}/lib/TPS63060DSCT.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -2290,7 +2290,7 @@
       (net 53 "/L1") (pintype "passive") (tstamp 5b8e1c92-0c37-40e8-8162-0f970ebffb1a))
     (pad "2" smd rect (at 0.725 0 270) (size 0.55 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 54 "/L2") (pintype "passive") (tstamp bc1323d0-f616-469f-aaee-6d75fbc8928e))
-    (model "${KIPRJMOD}/DFE201612E-2R2M=P2.STEP"
+    (model "${KIPRJMOD}/lib/DFE201612E-2R2M=P2.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
