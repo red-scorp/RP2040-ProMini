@@ -6,7 +6,7 @@
 
   (title_block
     (title "RP2040-ProMini-0020")
-    (date "2023-07-10")
+    (date "2023-07-13")
     (rev "2.0")
     (company "(c) 2023 Andriy Golovnya")
     (comment 1 "RP2040 based board with Arduino Pro Mini footprint")
@@ -1669,7 +1669,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 23ccdb6a-40d3-4f01-9d80-2ac2404fec42)
   )
-  (text "Vout = Vfb * (R1 + R2) / R2\nVout = 0.5V * (1M + 174k) /1 174k\nVout = 3.37V"
+  (text "Vout = Vfb * (R1 + R2) / R2\nVout = 0.5V * (1M + 174k) / 174k\nVout = 3.37V"
     (at 243.84 158.75 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5363d50e-bfe8-4c05-b6bb-1a992e7a0539)

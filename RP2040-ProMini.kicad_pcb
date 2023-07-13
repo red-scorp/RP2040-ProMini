@@ -7,7 +7,7 @@
   (paper "A4")
   (title_block
     (title "RP2040-ProMini-0020")
-    (date "2023-07-10")
+    (date "2023-07-13")
     (rev "2.0")
     (company "(c) 2023 Andriy Golovnya")
     (comment 1 "RP2040 based board with Arduino Pro Mini footprint")
