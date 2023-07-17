@@ -502,7 +502,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "doc/RP2040-ProMini.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
