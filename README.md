@@ -34,7 +34,7 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ## Version History
 
-### v2.0 (future)
+### v2.0
 
 - Use Buck-Boost converter instead of LDO.
 - Added two new digital pins.
