@@ -14,6 +14,8 @@ Preview:
 
 You can view the [Schematics in PDF format](doc/RP2040-ProMini.pdf) for detailed information.
 
+STEP 3D files are available [with pins](doc/RP2040-ProMini-with-pins.step) and [without pins](doc/RP2040-ProMini-board.step).
+
 Features:
 
 - Arduino Pro Mini compatible pinout
