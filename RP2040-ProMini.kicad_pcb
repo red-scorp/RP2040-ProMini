@@ -2416,7 +2416,7 @@
     (property "ki_description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/2123206b-d17a-4637-86eb-9c3b016d24d2")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J4" (at 0 2.33) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e3ae0ccc-847a-40de-900b-69ba4f40a050)
@@ -2488,7 +2488,7 @@
     (property "ki_description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/aefc87bc-a710-439b-9dae-2ef33b265a8d")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J2" (at 0 2.33 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6e9b44f6-b0b3-4b5c-a818-55f8c7499d1f)
@@ -2548,7 +2548,7 @@
     (property "ki_description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/74d0c0d8-651f-40d8-85d0-7e6610272d65")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J1" (at 0 2.33) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp bb55cf4d-98d0-4876-b894-c1bc1659c2e4)
@@ -2620,7 +2620,7 @@
     (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/6914273c-6c43-4807-91d1-6ad4868002bd")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J5" (at 0 2.33 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4bd92527-3048-4db6-a125-6ea69d840a58)
@@ -2672,7 +2672,7 @@
     (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/675dda35-e548-4ec2-97ae-5b608f3d0dbc")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J3" (at 0 2.33) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 37f0f9dd-4c92-4fb6-9b6f-db50152948b4)
