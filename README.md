@@ -38,11 +38,15 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ### v2.0
 
+![v2.0 board preview](img/v2.0.png)
+
 - Use Buck-Boost converter instead of LDO.
 - Added two new digital pins.
 - Moved few components around.
 
 ### v1.1
+
+![v1.1 board preview](img/v1.1.png)
 
 - Moved few components around.
 - Added BOOTSEL mini button for programming convenience.
@@ -50,12 +54,16 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ### v1.0
 
+![v1.0 board preview](img/v1.0.png)
+
 - Moved few resistors around.
 - Added small GND fill under the MCU.
 - Switched positions of UD- and GND pins on the side connector.
 - Generated different set of BOM and CPL files for SOIC and WSON versions of the board.
 
 ### v1.0b1
+
+![v1.0b1 board preview](img/v1.0b1.png)
 
 Initial release for testing purposes
 
