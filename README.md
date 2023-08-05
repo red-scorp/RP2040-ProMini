@@ -1,3 +1,13 @@
+```
+MM"""""""`MM MM"""""""`YM d8888b.  a8888a  dP   dP  a8888a     MM"""""""`YM                            M"""""`'"""`YM oo          oo 
+MM  mmmm,  M MM  mmmmm  M     `88 d8' ..8b 88   88 d8' ..8b    MM  mmmmm  M                            M  mm.  mm.  M                
+M'        .M M'        .M .aaadP' 88 .P 88 88aaa88 88 .P 88    M'        .M 88d888b. .d8888b.          M  MMM  MMM  M dP 88d888b. dP 
+MM  MMMb. "M MM  MMMMMMMM 88'     88 d' 88      88 88 d' 88    MM  MMMMMMMM 88'  `88 88'  `88 88888888 M  MMM  MMM  M 88 88'  `88 88 
+MM  MMMMM  M MM  MMMMMMMM 88.     Y8'' .8P      88 Y8'' .8P    MM  MMMMMMMM 88       88.  .88          M  MMM  MMM  M 88 88    88 88 
+MM  MMMMM  M MM  MMMMMMMM Y88888P  Y8888P       dP  Y8888P     MM  MMMMMMMM dP       `88888P'          M  MMM  MMM  M dP dP    dP dP 
+MMMMMMMMMMMM MMMMMMMMMMMM                                      MMMMMMMMMMMM                            MMMMMMMMMMMMMM                
+                                                                                                                                     ```
+
 # RP2040-ProMini Project
 
 The RP2040-ProMini project aims to create a replacement for the Arduino Pro Mini using the RP2040 MCU.
@@ -20,14 +30,15 @@ Features:
 
 - Arduino Pro Mini compatible pinout
 - Partially compatible with Arduino Nano RP2040 Connect pinout
+- (v3.0) Detachable USB and JTAG extension board with RESET button
 - Dual-core Cortex-M0+ Raspberry Pi RP2040
 - Small footprint suitable for DIY projects
-- (v1.0-v1.1) 19 GPIO pins, including 4 analog inputs
-- (v2.0) 21 GPIO pins, including 4 analog inputs
+- (v1.0 - v1.1) 19 GPIO pins, including 4 analog inputs
+- (v2.0 - v3.0) 21 GPIO pins, including 4 analog inputs
 - USB data pins on the side connector
 - SWD debugging pins on the side connector
-- (v1.0-v1.1) LDO-based 3.3V power supply with a maximum 16V input 
-- (v2.0) Bock-Boost converter based 3.3V power supply with input range of 2.5V-12V
+- (v1.0 - v1.1) LDO-based 3.3V power supply with a maximum 16V input 
+- (v2.0 - v3.0) Bock-Boost converter based 3.3V power supply with input range of 2.5V-12V
 - Supports both SOIC and WSON flash packages
 - Flat back side enables use as a sub-assembly
 - Two cut points to reduce power consumption of unused components
@@ -35,6 +46,12 @@ Features:
 CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ## Version History
+
+### v3.0
+
+![v3.0 board preview](img/v3.0.png)
+
+- Added detachable USB and JTAG extension board with RESET button.
 
 ### v2.0
 
@@ -65,7 +82,7 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ![v1.0b1 board preview](img/v1.0b1.png)
 
-Initial release for testing purposes
+Initial release for testing purposes.
 
 ## Links
 
