@@ -1,12 +1,12 @@
 ```
-MM"""""""`MM MM"""""""`YM d8888b.  a8888a  dP   dP  a8888a     MM"""""""`YM                            M"""""`'"""`YM oo          oo 
-MM  mmmm,  M MM  mmmmm  M     `88 d8' ..8b 88   88 d8' ..8b    MM  mmmmm  M                            M  mm.  mm.  M                
-M'        .M M'        .M .aaadP' 88 .P 88 88aaa88 88 .P 88    M'        .M 88d888b. .d8888b.          M  MMM  MMM  M dP 88d888b. dP 
-MM  MMMb. "M MM  MMMMMMMM 88'     88 d' 88      88 88 d' 88    MM  MMMMMMMM 88'  `88 88'  `88 88888888 M  MMM  MMM  M 88 88'  `88 88 
-MM  MMMMM  M MM  MMMMMMMM 88.     Y8'' .8P      88 Y8'' .8P    MM  MMMMMMMM 88       88.  .88          M  MMM  MMM  M 88 88    88 88 
-MM  MMMMM  M MM  MMMMMMMM Y88888P  Y8888P       dP  Y8888P     MM  MMMMMMMM dP       `88888P'          M  MMM  MMM  M dP dP    dP dP 
-MMMMMMMMMMMM MMMMMMMMMMMM                                      MMMMMMMMMMMM                            MMMMMMMMMMMMMM                
-                                                                                                                                     ```
+ ______    _______  _______  _______  _   ___  _______    _______  ______    _______         __   __  ___   __    _  ___  
+|    _ |  |       ||       ||  _    || | |   ||  _    |  |       ||    _ |  |       |       |  |_|  ||   | |  |  | ||   |
+|   | ||  |    _  ||____   || | |   || |_|   || | |   |  |    _  ||   | ||  |   _   | ____  |       ||   | |   |_| ||   |
+|   |_||_ |   |_| | ____|  || | |   ||       || | |   |  |   |_| ||   |_||_ |  | |  ||____| |       ||   | |       ||   |
+|    __  ||    ___|| ______|| |_|   ||___    || |_|   |  |    ___||    __  ||  |_|  |       |       ||   | |  _    ||   |
+|   |  | ||   |    | |_____ |       |    |   ||       |  |   |    |   |  | ||       |       | ||_|| ||   | | | |   ||   |
+|___|  |_||___|    |_______||_______|    |___||_______|  |___|    |___|  |_||_______|       |_|   |_||___| |_|  |__||___|
+```
 
 # RP2040-ProMini Project
 
