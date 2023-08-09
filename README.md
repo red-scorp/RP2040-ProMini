@@ -51,6 +51,7 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 ![v3.0 board preview](img/v3.0.png)
 
 - Added detachable USB and JTAG extension board with RESET button.
+- Improved routing a bit.
 
 ### v2.0
 
