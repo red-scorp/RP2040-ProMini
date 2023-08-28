@@ -37,7 +37,7 @@ Features:
 - USB data pins on the side connector
 - SWD debugging pins on the side connector
 - (v1.0 - v1.1) LDO-based 3.3V power supply with a maximum 16V input 
-- (v2.0 - v3.0) Bock-Boost converter based 3.3V power supply with input range of 2.5V-12V
+- (v2.0 - v3.0) Buck-Boost converter based 3.3V power supply with input range of 2.5V-12V
 - Supports both SOIC and WSON flash packages
 - Flat back side enables use as a sub-assembly
 - Two cut points to reduce power consumption of unused components
@@ -89,6 +89,7 @@ Initial release for testing purposes.
 - [Raspberry Pi RP2040 information page](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html).
 - [Arduino Pro Mini information page](https://docs.arduino.cc/retired/boards/arduino-pro-mini).
 - [Arduino Nano RP2040 Connect page](https://docs.arduino.cc/hardware/nano-rp2040-connect).
+- [Arduino SDK for RP2040 board](https://github.com/earlephilhower/arduino-pico).
 
 ## How to Help
 
