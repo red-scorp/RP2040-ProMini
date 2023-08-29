@@ -29,15 +29,13 @@ Features:
 
 - Arduino Pro Mini compatible pinout
 - Partially compatible with Arduino Nano RP2040 Connect pinout
-- (v3.0) Detachable USB and JTAG extension board with RESET button
+- _(v3.0)_ Detachable USB and JTAG extension board with RESET button
 - Dual-core Cortex-M0+ Raspberry Pi RP2040
 - Small footprint suitable for DIY projects
-- (v1.0 - v1.1) 19 GPIO pins, including 4 analog inputs
-- (v2.0 - v3.0) 21 GPIO pins, including 4 analog inputs
+- _(v1.0-v1.1)_ 19 GPIO pins, including 4 analog inputs or _(v2.0-v3.0)_ 21 GPIO pins, including 4 analog inputs
 - USB data pins on the side connector
 - SWD debugging pins on the side connector
-- (v1.0 - v1.1) LDO-based 3.3V power supply with a maximum 16V input 
-- (v2.0 - v3.0) Buck-Boost converter based 3.3V power supply with input range of 2.5V-12V
+- _(v1.0-v1.1)_ LDO-based 3.3V power supply with a maximum 16V input or _(v2.0-v3.0)_ Buck-Boost converter based 3.3V power supply with input range of 2.5V-12V
 - Supports both SOIC and WSON flash packages
 - Flat back side enables use as a sub-assembly
 - Two cut points to reduce power consumption of unused components
