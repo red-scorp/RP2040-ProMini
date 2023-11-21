@@ -32,6 +32,11 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ## Version History
 
+### v1.2
+
+- Removed pull-up resistor from SWCLK line.
+- Added white silkscreen under LEDs to add light reflection.
+
 ### v1.1
 
 - Moved few components around.
