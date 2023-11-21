@@ -44,6 +44,13 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 - Added two new digital pins.
 - Moved few components around.
 
+### v1.2
+
+![v1.2 board preview](img/v1.2.png)
+
+- Removed pull-up resistor from SWCLK line.
+- Added white silkscreen under LEDs to add light reflection.
+
 ### v1.1
 
 ![v1.1 board preview](img/v1.1.png)
