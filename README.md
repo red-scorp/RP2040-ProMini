@@ -44,12 +44,26 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ## Version History
 
+### v3.1
+
+![v3.1 board preview](img/v3.1.png)
+
+- Removed pull-up resistor from SWCLK line.
+- Added white silkscreen under LEDs to add light reflection.
+
 ### v3.0
 
 ![v3.0 board preview](img/v3.0.png)
 
 - Added detachable USB and JTAG extension board with RESET button.
 - Improved routing a bit.
+
+### v2.1
+
+![v2.1 board preview](img/v2.1.png)
+
+- Removed pull-up resistor from SWCLK line.
+- Added white silkscreen under LEDs to add light reflection.
 
 ### v2.0
 
@@ -58,6 +72,13 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 - Use Buck-Boost converter instead of LDO.
 - Added two new digital pins.
 - Moved few components around.
+
+### v1.2
+
+![v1.2 board preview](img/v1.2.png)
+
+- Removed pull-up resistor from SWCLK line.
+- Added white silkscreen under LEDs to add light reflection.
 
 ### v1.1
 
