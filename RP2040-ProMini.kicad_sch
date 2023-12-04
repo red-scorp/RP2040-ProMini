@@ -6,7 +6,7 @@
 
   (title_block
     (title "RP2040-ProMini-0031")
-    (date "2023-11-21")
+    (date "2023-12-04")
     (rev "3.1")
     (company "(c) 2023 Andriy Golovnya")
     (comment 1 "RP2040 based board with Arduino Pro Mini footprint and debug extension")
@@ -1975,7 +1975,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 915fdf30-7d2d-4b66-a713-c67aaed95997)
   )
-  (text "JATG connector" (at 34.29 149.86 0)
+  (text "JTAG connector" (at 34.29 149.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 976f0602-9979-40f0-9b21-9a5f2dac4e6d)
   )
