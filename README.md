@@ -44,6 +44,12 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ## Version History
 
+Roughly you can divide the versions in three groups:
+
+- v1.x - this boards are cheaper because they are based on LDO power supply.
+- v2.x - this boards are more expensive because they are based on Buck-Boost power supply.
+- v3.x - this boards has same basic design as v2.x but includes detachable USB and JTAG extension board.
+
 ### v3.1
 
 ![v3.1 board preview](img/v3.1.png)
