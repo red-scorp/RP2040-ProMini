@@ -44,7 +44,7 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ## Version History
 
-Roughly you can divide the versions in three groups:
+Roughly RP2040-ProMini board exists in three flavors:
 
 - v1.x - this boards are cheaper because they are based on LDO power supply.
 - v2.x - this boards are more expensive because they are based on Buck-Boost power supply.
