@@ -32,6 +32,11 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ## Version History
 
+### v1.3
+
+- Added Gxx pin names on the back of the board.
+- Made front and back texts bigger for better readability.
+
 ### v1.2
 
 - Removed pull-up resistor from SWCLK line.
