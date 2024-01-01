@@ -29,13 +29,13 @@ Features:
 
 - Arduino Pro Mini compatible pinout
 - Partially compatible with Arduino Nano RP2040 Connect pinout
-- _(v3.0)_ Detachable USB and JTAG extension board with RESET button
+- _(v3.x)_ Detachable USB and JTAG extension board with RESET button
 - Dual-core Cortex-M0+ Raspberry Pi RP2040
 - Small footprint suitable for DIY projects
-- _(v1.0-v1.1)_ 19 GPIO pins, including 4 analog inputs or _(v2.0-v3.0)_ 21 GPIO pins, including 4 analog inputs
+- _(v1.x)_ 19 GPIO pins, including 4 analog inputs or _(v2.x-v3.x)_ 21 GPIO pins, including 4 analog inputs
 - USB data pins on the side connector
 - SWD debugging pins on the side connector
-- _(v1.0-v1.1)_ LDO-based 3.3V power supply with a maximum 16V input or _(v2.0-v3.0)_ Buck-Boost converter based 3.3V power supply with input range of 2.5V-12V
+- _(v1.x)_ LDO-based 3.3V power supply with a maximum 16V input or _(v2.x-v3.x)_ Buck-Boost converter based 3.3V power supply with input range of 2.5V-12V
 - Supports both SOIC and WSON 16MB flash packages
 - Flat back side enables use as a sub-assembly
 - Two cut points to reduce power consumption of unused components
@@ -61,7 +61,7 @@ Following pinout is used for the board:
 | D10       | GPIO5      | SS       |       |
 | D11       | GPIO7      | MOSI     |       |
 | D12       | GPIO4      | MISO     |       |
-| D13       | GPIO6      | SCK      |       |
+| D13       | GPIO6      | SCK      | LED   |
 | D14 A0    | GPIO26     |          |       |
 | D15 A1    | GPIO27     |          |       |
 | D16 A2    | GPIO28     |          |       |
@@ -71,6 +71,15 @@ Following pinout is used for the board:
 | D20       | GPIO22     |          |       |
 | D21       | GPIO23     |          |       |
 
+### Cut Points
+
+There are two cut points on the board to reduce power consumption of unused components.
+
+| Cut Point | Function | Notes |
+| --------- | -------- | ----- |
+| CUT_VIN   | Separates VIN-to-3V3 power supply with power LED from the rest of the board | This cut point is useful if you want to power the board from 3V3 pin instead of VIN pin. |
+| CUT_LED   | Separates LED on pin D13 from the rest of the board | This cut point is useful if you want to reduce power consumption of the board. |
+
 ## Version History
 
 Roughly RP2040-ProMini board exists in three flavors:
@@ -78,6 +87,12 @@ Roughly RP2040-ProMini board exists in three flavors:
 - v1.x - this boards are cheaper because they are based on LDO power supply.
 - v2.x - this boards are more expensive because they are based on Buck-Boost power supply.
 - v3.x - this boards has same basic design as v2.x but includes detachable USB and JTAG extension board.
+
+### v3.2
+
+![v3.2 board preview](img/v3.2.png)
+
+- Added Gxx pin names on the back of the board.
 
 ### v3.1
 
