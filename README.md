@@ -109,6 +109,12 @@ Roughly RP2040-ProMini board exists in three flavors:
 - Added detachable USB and JTAG extension board with RESET button.
 - Improved routing a bit.
 
+### v2.2
+
+![v2.2 board preview](img/v2.2.png)
+
+- Added Gxx pin names on the back of the board.
+
 ### v2.1
 
 ![v2.1 board preview](img/v2.1.png)
