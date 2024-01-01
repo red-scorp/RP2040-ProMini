@@ -36,6 +36,19 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ## Version History
 
+### v2.2
+
+![v2.2 board preview](img/v2.2.png)
+
+- Added Gxx pin names on the back of the board.
+
+### v2.1
+
+![v2.1 board preview](img/v2.1.png)
+
+- Removed pull-up resistor from SWCLK line.
+- Added white silkscreen under LEDs to add light reflection.
+
 ### v2.0
 
 ![v2.0 board preview](img/v2.0.png)
