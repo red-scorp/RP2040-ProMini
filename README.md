@@ -93,6 +93,7 @@ Roughly RP2040-ProMini board exists in three flavors:
 ![v3.2 board preview](img/v3.2.png)
 
 - Added Gxx pin names on the back of the board.
+- Made extension board cut-out openings wider for easier cutting.
 
 ### v3.1
 
