@@ -130,6 +130,13 @@ Roughly RP2040-ProMini board exists in three flavors:
 - Added two new digital pins.
 - Moved few components around.
 
+### v1.3
+
+![v1.3 board preview](img/v1.3.png)
+
+- Added Gxx pin names on the back of the board.
+- Made front and back texts bigger for better readability.
+
 ### v1.2
 
 ![v1.2 board preview](img/v1.2.png)
