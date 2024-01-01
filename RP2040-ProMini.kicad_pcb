@@ -6,9 +6,9 @@
 
   (paper "A4")
   (title_block
-    (title "RP2040-ProMini-0031")
-    (date "2023-11-22")
-    (rev "3.1")
+    (title "RP2040-ProMini-0032")
+    (date "2024-01-01")
+    (rev "3.2")
     (company "(c) 2023 Andriy Golovnya")
     (comment 1 "RP2040 based board with Arduino Pro Mini footprint and debug extension")
     (comment 2 "Designed in Germany")
