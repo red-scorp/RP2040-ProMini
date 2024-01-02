@@ -88,41 +88,41 @@ Roughly RP2040-ProMini board exists in three flavors:
 - v2.x - this boards are more expensive because they are based on Buck-Boost power supply.
 - v3.x - this boards has same basic design as v2.x but includes detachable USB and JTAG extension board.
 
-### v3.2
+### v3.2 - xx.xx.2024
 
 ![v3.2 board preview](img/v3.2.png)
 
 - Added Gxx pin names on the back of the board.
 - Made extension board cut-out openings wider for easier cutting.
 
-### v3.1
+### v3.1 - 21.11.2023
 
 ![v3.1 board preview](img/v3.1.png)
 
 - Removed pull-up resistor from SWCLK line.
 - Added white silkscreen under LEDs to add light reflection.
 
-### v3.0
+### v3.0 - 29.08.2023
 
 ![v3.0 board preview](img/v3.0.png)
 
 - Added detachable USB and JTAG extension board with RESET button.
 - Improved routing a bit.
 
-### v2.2
+### v2.2 - 01.01.2024
 
 ![v2.2 board preview](img/v2.2.png)
 
 - Added Gxx pin names on the back of the board.
 
-### v2.1
+### v2.1 - 21.11.2023
 
 ![v2.1 board preview](img/v2.1.png)
 
 - Removed pull-up resistor from SWCLK line.
 - Added white silkscreen under LEDs to add light reflection.
 
-### v2.0
+### v2.0 - 23.07.2023
 
 ![v2.0 board preview](img/v2.0.png)
 
@@ -130,21 +130,21 @@ Roughly RP2040-ProMini board exists in three flavors:
 - Added two new digital pins.
 - Moved few components around.
 
-### v1.3
+### v1.3 - 01.01.2024
 
 ![v1.3 board preview](img/v1.3.png)
 
 - Added Gxx pin names on the back of the board.
 - Made front and back texts bigger for better readability.
 
-### v1.2
+### v1.2 - 21.11.2023
 
 ![v1.2 board preview](img/v1.2.png)
 
 - Removed pull-up resistor from SWCLK line.
 - Added white silkscreen under LEDs to add light reflection.
 
-### v1.1
+### v1.1 - 05.07.2023
 
 ![v1.1 board preview](img/v1.1.png)
 
@@ -152,7 +152,7 @@ Roughly RP2040-ProMini board exists in three flavors:
 - Added BOOTSEL mini button for programming convenience.
 - Changed LED resistors to allow more current, making LED to emit more light.
 
-### v1.0
+### v1.0 - 25.06.2023
 
 ![v1.0 board preview](img/v1.0.png)
 
@@ -161,7 +161,7 @@ Roughly RP2040-ProMini board exists in three flavors:
 - Switched positions of UD- and GND pins on the side connector.
 - Generated different set of BOM and CPL files for SOIC and WSON versions of the board.
 
-### v1.0b1
+### v1.0b1 - 13.06.2023
 
 ![v1.0b1 board preview](img/v1.0b1.png)
 
