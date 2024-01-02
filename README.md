@@ -88,6 +88,8 @@ Roughly RP2040-ProMini board exists in three flavors:
 - v2.x - this boards are more expensive because they are based on Buck-Boost power supply.
 - v3.x - this boards has same basic design as v2.x but includes detachable USB and JTAG extension board.
 
+The development of v3.x boards is happening in *master* branch, while v1.x and v2.x boards are developed in *dev_v1* and *dev_v2* branches respectively.
+
 ### v3.2 - xx.xx.2024
 
 ![v3.2 board preview](img/v3.2.png)
