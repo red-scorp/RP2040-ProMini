@@ -90,6 +90,8 @@ Roughly RP2040-ProMini board exists in three flavors:
 
 The development of v3.x boards is happening in *master* branch, while v1.x and v2.x boards are developed in *dev_v1* and *dev_v2* branches respectively.
 
+Each board version listed below is tagged in its respective branch and includes all the necessary files to manufacture the board.
+
 ### v3.2 - xx.xx.2024
 
 ![v3.2 board preview](img/v3.2.png)
